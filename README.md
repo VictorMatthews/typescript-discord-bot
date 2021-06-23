@@ -6,3 +6,13 @@ You will need to create a ```.env``` file in the root directory containing the f
 ```
 TOKEN=my-discord-bot-token
 ```
+
+### Starting the Bot
+
+To start the bot you should run the following three commands
+```
+npm run clean
+npm run build
+npm run start
+```
+This will clear the ```dist/``` directory, build, and start running the bot. 

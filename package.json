@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node dist/main.js",
     "build": "npx tsc",
-    "cleanup": "rmdir /Q /S dist"
+    "clean": "rmdir /Q /S dist"
   },
   "author": "Victor Matthews",
   "dependencies": {
