@@ -8,6 +8,6 @@ export class Ping extends Command {
     }
 
     public execute(msg: Message, args: string[]): void {
-        this.sendMessage(msg, 'pong');
+        this.sendMessage(msg, this.tagUser(msg.author.id) + 'pong');
     }
 }

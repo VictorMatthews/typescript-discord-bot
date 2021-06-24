@@ -12,5 +12,9 @@ export abstract class Command {
             console.log(Constants.MESSAGE_SEND + Constants.QUOTE + text + Constants.QUOTE);
         });
     }
+
+    protected tagUser(userId: string): string {
+        return Constants.OPEN_USER_TAG + userId + Constants.CLOSE_TAG;
+    }
 }
 
