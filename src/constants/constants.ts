@@ -22,4 +22,10 @@ export class Constants {
     public static READY = 'ready';
     public static SPACE = ' ';
     public static TOKEN = 'Token';
+    public static MESSAGE_RESPONDER = 'MessageResponder';
+    public static COMMAND_RESPONDER = 'CommandResponder';
+    public static POST = 'post';
+    public static DELETE = 'delete';
+    public static COMMAND = 'command';
+    public static GUILD_ID = 'GuildId';
 }
